@@ -3,6 +3,7 @@
 # trig.awk - main section of "trig" project
 #
 # DFP
+# W Carr, carrwi96@students.rowan.edu, 2023-09-27
 
 # Load up functions from other files
 @include "cosine.awk"
@@ -21,7 +22,7 @@ BEGIN {
     } else {
         angle = ARGV[1]
     }
-	
+
  	# converts the angle to radians
 	printf("Angle in degrees: %f\n", angle);
 	angle = radians(angle);
